@@ -39,7 +39,7 @@ const Layout = ({ children }) => {
                                 C
                             </div>
                             <span className="text-xl font-bold bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
-                                cryptovhl
+                                CryptoVHL
                             </span>
                         </Link>
 
@@ -90,7 +90,7 @@ const Layout = ({ children }) => {
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
                     <div className="flex flex-col md:flex-row justify-between items-center gap-4">
                         <div className="text-muted text-sm">
-                            @ 2025 cryptovhl by fer. Educational Purpose only.
+                            @ 2025 CryptoVHL by fer. Educational Purpose only.
                         </div>
                         <div className="flex gap-6 text-muted">
                             <a href="https://x.com/azukiaraixxz" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors">Twitter</a>
