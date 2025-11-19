@@ -1,0 +1,33 @@
+@import "tailwindcss";
+
+@theme {
+  --color-background: #000000;
+  --color-surface: #111111;
+  --color-primary: #D4AF37;
+  /* Gold */
+  --color-secondary: #C5A028;
+  /* Darker Gold */
+  --color-accent: #FFFFFF;
+  --color-text: #FFFFFF;
+  --color-muted: #A1A1AA;
+  --font-sans: Inter, sans-serif;
+}
+
+@layer base {
+  body {
+    @apply bg-background text-text font-sans antialiased;
+  }
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-background;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-surface rounded-full hover:bg-primary/50 transition-colors;
+}
