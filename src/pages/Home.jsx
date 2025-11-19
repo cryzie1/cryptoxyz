@@ -40,8 +40,8 @@ const Home = () => {
                     Welcome to the Future of Finance
                 </div>
                 <h1 className="text-5xl md:text-6xl font-bold tracking-tight bg-gradient-to-r from-text via-text to-muted bg-clip-text text-transparent">
-                    Guiding You In <br />
-                    <span className="text-primary">Cryptospace</span>
+                    Understanding <br />
+                    <span className="text-primary">Cryptoverse</span>
                 </h1>
                 <p className="text-xl text-muted leading-relaxed">
                     Your comprehensive guide to understanding Bitcoin, Blockchains, DeFi, and how to navigate the decentralized web safely.
